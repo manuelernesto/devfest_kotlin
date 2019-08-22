@@ -26,6 +26,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    dataBinding {
+        enabled = true
+    }
 }
 
 dependencies {
@@ -63,9 +67,6 @@ dependencies {
     implementation 'org.kodein.di:kodein-di-generic-jvm:6.2.1'
     implementation 'org.kodein.di:kodein-di-framework-android-x:6.2.1'
 
-    // font awesome
-    implementation 'info.androidhive:fontawesome:0.0.5'
 
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0'
+
 }

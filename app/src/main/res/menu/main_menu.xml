@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menu_darkOn"
+        android:icon="@drawable/ic_lightbulb_outline_black_24dp"
+        android:orderInCategory="1"
+        android:title="Enable DarkMode"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:orderInCategory="1"
+        android:title="Share App"
+        app:showAsAction="ifRoom" />
+
+
+
+</menu>
