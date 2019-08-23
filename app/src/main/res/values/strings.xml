@@ -4,20 +4,7 @@
 
     <string name="welcomeText">Welcome to GDG DevFest</string>
     <string name="descText">DevFests are community-led, developer events hosted by GDG chapters around the globe focused on community building and learning about Google’s technologies. Each DevFest is inspired by and uniquely tailored to the needs of the developer community and region that hosts it.</string>
-    <string name="loading_text">Loading…</string>
-    <string name="try_again_text">Try Again</string>
-    <string name="some_error_text">Some error</string>
-    <string name="signInText">Sign In</string>
-    <string name="signInGoogleText">Sign in with google</string>
-    <string name="signOutText">Sign Out</string>
     <string name="versionText">1.0.0</string>
-    <string name="wrongText">Something went wrong</string>
-    <string name="confirmText">Confirm</string>
-    <string name="supportText">Support Needed</string>
-    <string name="featureText">Feature Request</string>
-    <string name="moreFeatureText">More Features coming soon.</string>
-    <string name="updateNowText">Please update your app for seamless experience.</string>
-    <string name="checkNetText">It seems like your internet connection is not active.</string>
 
 
     <string name="urlFacebook">https://facebook.com/manuelernest0</string>
@@ -25,5 +12,9 @@
     <string name="urlLinkedin">https://linkedin.com/in/manuelernesto</string>
     <string name="urlYoutube">https://youtube.com/</string>
     <string name="urlMeetup">https://meetup.com/</string>
+    <string name="txt_email">alemdadox@gmail.com</string>
+    <string name="txt_subject">Need an App?</string>
+    <string name="txt_body">Just reply this email</string>
+    <string name="txt_github">https://github.com/manuelernesto/devfest_kotlin</string>
 
 </resources>

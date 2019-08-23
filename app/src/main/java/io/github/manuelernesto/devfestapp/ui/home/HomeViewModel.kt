@@ -5,7 +5,6 @@ import android.net.Uri
 import android.view.View
 import androidx.lifecycle.ViewModel
 import io.github.manuelernesto.devfestapp.R
-import retrofit2.http.Url
 
 class HomeViewModel : ViewModel() {
 
@@ -36,17 +35,21 @@ class HomeViewModel : ViewModel() {
     }
 
     fun sendEmail(view: View) {
-        loadUrl(
-            view,
-            "mailto:alemdadox@gmail.com?subject=Need an App App&body={Name: Manuel Ernesto},Email: alemdadox@gmail.com}"
-        )
+
+        Intent(
+            Intent.ACTION_SENDTO, Uri
+                .parse("mailto:${view.context.getString(R.string.txt_email)}")
+        ).also {
+            it.putExtra(Intent.EXTRA_SUBJECT, view.context.getString(R.string.txt_subject))
+            it.putExtra(Intent.EXTRA_TEXT, view.context.getString(R.string.txt_body))
+            view.context.startActivity(it)
+        }
     }
 
     private fun loadUrl(view: View, url: String) {
         Intent(Intent.ACTION_VIEW, Uri.parse(url)).also {
             view.context.startActivity(it)
         }
-
 
     }
 }

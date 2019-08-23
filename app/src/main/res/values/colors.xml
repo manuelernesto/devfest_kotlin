@@ -4,6 +4,5 @@
     <color name="colorPrimaryDark">#27000000</color>
     <color name="colorAccent">#D81B60</color>
 
-    <color name="colorImgCard">#1f2124</color>
-<!--    <color name="colorApp">#ffd7167</color>-->
+    <!--    <color name="colorApp">#ffd7167</color>-->
 </resources>

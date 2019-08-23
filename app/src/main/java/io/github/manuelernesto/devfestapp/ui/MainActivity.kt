@@ -29,14 +29,6 @@ class MainActivity : AppCompatActivity() {
         toolbar.title = getString(R.string.title_home)
         setSupportActionBar(toolbar)
 
-//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-//            window.setFlags(
-//                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
-//                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
-//            )
-//        }
-
-
         mNavController = Navigation.findNavController(this, R.id.fragment)
 
         NavigationUI.setupWithNavController(toolbar, mNavController)
@@ -61,7 +53,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun share() {
         try {
-            val link = "https://play.google.com/store/apps/details?id=ao.atlantico.marketplace"
+            val link = getString(R.string.txt_github)
             val productDesc =
                 "Check the repository of Devfest App make with kotlin and share with your tech friends.\n$link"
             val intent = Intent(Intent.ACTION_SEND)
