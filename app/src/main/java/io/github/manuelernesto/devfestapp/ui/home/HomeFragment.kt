@@ -24,6 +24,7 @@ class HomeFragment : Fragment() {
         viewModel = ViewModelProviders.of(this).get(HomeViewModel::class.java)
         binding.viewModel = viewModel
         binding.lifecycleOwner = this
+
         return binding.root
     }
 

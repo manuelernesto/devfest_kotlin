@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
     app:startDestination="@id/homeFragment">
 
 
@@ -9,5 +10,34 @@
         android:id="@+id/homeFragment"
         android:name="io.github.manuelernesto.devfestapp.ui.home.HomeFragment"
         android:label="Home"
-        tools:layout="@layout/home_fragment" />
+        tools:layout="@layout/home_fragment">
+        <action
+            android:id="@+id/toAgendaFragment"
+            app:destination="@id/agendaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+        <action
+            android:id="@+id/toTeamFragment"
+            app:destination="@id/teamFragment" />
+        <action
+            android:id="@+id/toSpeakersFragment"
+            app:destination="@id/speakersFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/agendaFragment"
+        android:name="io.github.manuelernesto.devfestapp.ui.agenda.AgendaFragment"
+        android:label="Agenda"
+        tools:layout="@layout/agenda_fragment" />
+    <fragment
+        android:id="@+id/speakersFragment"
+        android:name="io.github.manuelernesto.devfestapp.ui.speakers.SpeakersFragment"
+        android:label="Speakers"
+        tools:layout="@layout/speakers_fragment" />
+    <fragment
+        android:id="@+id/teamFragment"
+        android:name="io.github.manuelernesto.devfestapp.ui.team.TeamFragment"
+        android:label="Team"
+        tools:layout="@layout/team_fragment" />
+
 </navigation>

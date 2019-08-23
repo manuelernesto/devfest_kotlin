@@ -2,12 +2,28 @@ package io.github.manuelernesto.devfestapp.ui.home
 
 import android.content.Intent
 import android.net.Uri
+import android.util.Log
 import android.view.View
 import androidx.lifecycle.ViewModel
+import androidx.navigation.Navigation
+import androidx.navigation.findNavController
 import io.github.manuelernesto.devfestapp.R
 
 class HomeViewModel : ViewModel() {
 
+
+    fun goToAgenda(view: View) {
+        view.findNavController().navigate(R.id.agendaFragment)
+    }
+
+    fun goToTeam(view: View) {
+        view.findNavController().navigate(R.id.teamFragment)
+    }
+
+
+    fun goToSpeakers(view: View) {
+        view.findNavController().navigate(R.id.speakersFragment)
+    }
 
     fun openFacebook(view: View) {
         val url = view.context.getString(R.string.urlFacebook)

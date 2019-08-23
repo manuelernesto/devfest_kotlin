@@ -269,6 +269,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:onClick="@{viewModel::goToAgenda}"
                     android:id="@+id/card_agenda"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
@@ -304,6 +305,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:onClick="@{viewModel::goToSpeakers}"
                     android:id="@+id/card_speakers"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
@@ -336,6 +338,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:onClick="@{viewModel::goToTeam}"
                     android:id="@+id/card_team"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
