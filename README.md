@@ -1,4 +1,4 @@
-# GDG DEVFEST APP [![Codemagic build status](https://api.codemagic.io/apps/5d4af19b36524a001caa407a/5d4af19b36524a001caa4079/status_badge.svg)](https://codemagic.io/apps/5d4af19b36524a001caa407a/5d4af19b36524a001caa4079/latest_build) [![Build Status](https://travis-ci.org/iampawan/GDG-DevFest-App.svg?branch=master)](https://travis-ci.org/iampawan/GDG-DevFest-App)
+# GDG DEVFEST APP Made with Kotlin 
 
 <p align="center">
 <img width="800px"  src="https://i.imgur.com/P21Hk0u.png">
@@ -10,7 +10,7 @@
 
 |             Light Theme              | 
 | :----------------------------------: | 
-| ![](https://i.imgur.com/ipUdGyk.png) | 
+| ![](https://i.imgur.com/doMUSM1.png) | 
 
 ### Show some :heart: and star the repo to support the project
 
@@ -20,11 +20,13 @@ DevFest Mobile application is for all the GDG Devfests around the world. You can
 
 ## Technology Stack
 
-- Kotlin
-- Koin
-- Databinding
-- Material Design
+- [Kotlin]
+- DataBind
+- Android Navigation component
+- [Glide]
+- [Circle Imageview]
 - Firebase (Upcoming)
+- Google Maps (Upcoming)
 
 ## Architecture
 
@@ -35,18 +37,18 @@ DevFest Mobile application is for all the GDG Devfests around the world. You can
 - Home 
 - Agenda 
 - Speakers 
+- Darkmode (Upcoming)
 
 ## Getting Started
 
+1. Install [Android Studio](https://flutter.dev/docs/development/tools/android-studio)
 1. [Fork repository](https://github.com/iampawan/GDG-DevFest-App/fork) and clone your fork locally
-1. Install [Flutter 1.7.8](https://flutter.dev/docs/get-started/install)
-1. Install [Android Studio / IntelliJ / VSCode](https://flutter.dev/docs/development/tools/android-studio)
 1. [Preparing Release for Android](https://flutter.dev/docs/deployment/android)
 1. [Preparing Release for iOS](https://flutter.dev/docs/deployment/ios)
 
 ## Contributing
 
-Awesome! Contributions of all kinds are greatly appreciated. To help smoothen the process we have a few non-exhaustive guidelines to follow which should get you going in no time.
+Awesome! Contributions of all kinds are greatly appreciated. To help smooth the process we have a few non-exhaustive guidelines to follow which should get you going in no time.
 
 ### Using GitHub Issues
 
