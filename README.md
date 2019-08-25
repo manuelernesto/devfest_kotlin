@@ -1,4 +1,4 @@
-# GDG DEVFEST APP Made with Kotlin 
+# GDG Devfest APP Made with Kotlin 
 
 <p align="center">
 <img width="800px"  src="https://i.imgur.com/P21Hk0u.png">
@@ -18,13 +18,13 @@
 
 DevFest Mobile application is for all the GDG Devfests around the world. You can see the agenda in the app as well as the speakers and other updates regarding the devfest.
 
-## Technology Stack
+## Technologies & Libraries
 
-- [Kotlin]
-- DataBind
-- Android Navigation component
-- [Glide]
-- [Circle Imageview]
+- [Kotlin Lang](https://kotlinlang.org/)
+- [Data Binding Library](https://developer.android.com/topic/libraries/data-binding)
+- [Android Navigation component](https://developer.android.com/guide/navigation/navigation-getting-started)
+- [Glide Library](https://github.com/bumptech/glide)
+- [Circle Imageview Library](https://github.com/hdodenhof/CircleImageView)
 - Firebase (Upcoming)
 - Google Maps (Upcoming)
 
@@ -37,14 +37,17 @@ DevFest Mobile application is for all the GDG Devfests around the world. You can
 - Home 
 - Agenda 
 - Speakers 
+- Team 
+- Sponsors (Upcoming)
+- FAQ (Upcoming)
+- Locate Us (Upcoming)
 - Darkmode (Upcoming)
 
 ## Getting Started
 
-1. Install [Android Studio](https://flutter.dev/docs/development/tools/android-studio)
-1. [Fork repository](https://github.com/iampawan/GDG-DevFest-App/fork) and clone your fork locally
-1. [Preparing Release for Android](https://flutter.dev/docs/deployment/android)
-1. [Preparing Release for iOS](https://flutter.dev/docs/deployment/ios)
+1. Install [Android Studio](https://developer.android.com/studio/?gclid=CjwKCAjw44jrBRAHEiwAZ9igKDTErwXeJfsoSCzU_FxcmUz3sB4hZX-zHOCz1fyjhRgNApwJE9eSYBoC1aYQAvD_BwE)
+1. [Fork repository](https://github.com/manuelernesto/devfest_kotlin) and clone your fork locally
+1. Open project & start use it
 
 ## Contributing
 
@@ -73,4 +76,4 @@ Awesome! Contributions of all kinds are greatly appreciated. To help smooth the 
 Project is published under the [MIT license](/LICENSE.md).
 Feel free to clone and modify repo as you want, but don't forget to add reference to authors :)
 
-_GDG DevFest App is not endorsed and/or supported by Google, the corporation._
+_GDG DevFest App is not supported by Google, the corporation._

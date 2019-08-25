@@ -44,28 +44,13 @@ dependencies {
     //for kotlin use navigation-fragment-ktx
     implementation 'androidx.navigation:navigation-ui-ktx:2.2.0-alpha01'
     //for kotlin use navigation-ui-ktx
-
-
-    //  retrofit
-    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
-    implementation 'com.squareup.retrofit2:converter-moshi:2.5.1-SNAPSHOT'
-    implementation 'com.google.code.gson:gson:2.8.5'
-
-    //  kotlin coroutines
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1'
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.1'
+    
 
     //  viewModel & liveData
     implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
 
     //new material design
     implementation 'com.google.android.material:material:1.1.0-alpha09'
-
-
-    //kodein dependency injection
-    implementation 'org.kodein.di:kodein-di-generic-jvm:6.2.1'
-    implementation 'org.kodein.di:kodein-di-framework-android-x:6.2.1'
 
 
     //    Circle Imageview
