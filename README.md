@@ -10,7 +10,7 @@
 
 |             Light Theme              | 
 | :----------------------------------: | 
-| ![](https://i.imgur.com/doMUSM1.png) | 
+| <img width="100px"  src="https://i.imgur.com/doMUSM1.png"> |
 
 ### Show some :heart: and star the repo to support the project
 
