@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.speakers.SpeakersFragment">
+    tools:context=".ui.agenda.cloud.CloudFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        tools:listitem="@layout/general_item"
-        android:id="@+id/rv_speakers"
+        tools:listitem="@layout/agenda_item"
+        android:id="@+id/rv_cloud"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"

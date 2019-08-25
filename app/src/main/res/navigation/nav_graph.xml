@@ -28,7 +28,17 @@
         android:id="@+id/agendaFragment"
         android:name="io.github.manuelernesto.devfestapp.ui.agenda.AgendaFragment"
         android:label="Agenda"
-        tools:layout="@layout/agenda_fragment" />
+        tools:layout="@layout/agenda_fragment" >
+        <action
+            android:id="@+id/action_agendaFragment_to_cloudFragment"
+            app:destination="@id/cloudFragment" />
+        <action
+            android:id="@+id/action_agendaFragment_to_webFragment"
+            app:destination="@id/webFragment" />
+        <action
+            android:id="@+id/action_agendaFragment_to_mobileFragment"
+            app:destination="@id/mobileFragment" />
+    </fragment>
     <fragment
         android:id="@+id/speakersFragment"
         android:name="io.github.manuelernesto.devfestapp.ui.speakers.SpeakersFragment"
@@ -39,5 +49,20 @@
         android:name="io.github.manuelernesto.devfestapp.ui.team.TeamFragment"
         android:label="Team"
         tools:layout="@layout/team_fragment" />
+    <fragment
+        android:id="@+id/cloudFragment"
+        android:name="io.github.manuelernesto.devfestapp.ui.agenda.cloud.CloudFragment"
+        android:label="Cloud"
+        tools:layout="@layout/cloud_fragment" />
+    <fragment
+        android:id="@+id/mobileFragment"
+        android:name="io.github.manuelernesto.devfestapp.ui.agenda.mobile.MobileFragment"
+        android:label="Mobile"
+        tools:layout="@layout/mobile_fragment" />
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="io.github.manuelernesto.devfestapp.ui.agenda.web.WebFragment"
+        android:label="Web"
+        tools:layout="@layout/web_fragment" />
 
 </navigation>
