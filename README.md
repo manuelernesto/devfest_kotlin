@@ -7,10 +7,10 @@
 <p align="center"><a href="#getting-started">:rocket: Get Started</a></p>
 
 ## 📸 ScreenShots
-|                                      |                                      | 
+                                                                          
 | :----------------------------------: | :----------------------------------: |
-| <img width="250px"  src="https://imgur.com/doMUSM1"> | <img width="250px"  src="https://imgur.com/1BtUGC6"> |
-| <img width="250px"  src="https://imgur.com/lbPV3lP"> | <img width="250px"  src="https://i.imgur.com/3LLoXUZ.png"> |
+| <img width="250px"  src="https://i.imgur.com/doMUSM1.png"> | <img width="250px"  src="https://i.imgur.com/1BtUGC6.png"> |
+| <img width="250px"  src="https://i.imgur.com/lbPV3lP.png"> | <img width="250px"  src="https://i.imgur.com/3LLoXUZ.png"> |
 
 ### Show some :heart: and star the repo to support the project
 
