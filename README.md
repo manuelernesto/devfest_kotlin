@@ -10,7 +10,7 @@
 |                                      |                                      | 
 | :----------------------------------: | :----------------------------------: |
 | <img width="250px"  src="https://imgur.com/doMUSM1"> | <img width="250px"  src="https://imgur.com/1BtUGC6"> |
-| <img width="250px"  src="https://imgur.com/lbPV3lP"> | <img width="250px"  src="https://imgur.com/3LLoXUZ"> |
+| <img width="250px"  src="https://imgur.com/lbPV3lP"> | <img width="250px"  src="https://i.imgur.com/3LLoXUZ.png"> |
 
 ### Show some :heart: and star the repo to support the project
 
