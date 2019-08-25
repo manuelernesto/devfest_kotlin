@@ -8,9 +8,9 @@
 
 ## 📸 ScreenShots
 
-|             Light Theme              | 
-| :----------------------------------: | 
-| <img width="250px"  src="https://i.imgur.com/doMUSM1.png"> |
+| :----------------------------------: | :----------------------------------: |
+| <img width="250px"  src="https://imgur.com/doMUSM1"> | <img width="250px"  src="https://imgur.com/1BtUGC6"> |
+| <img width="250px"  src="https://imgur.com/lbPV3lP"> | <img width="250px"  src="https://imgur.com/3LLoXUZ"> |
 
 ### Show some :heart: and star the repo to support the project
 
