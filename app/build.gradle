@@ -44,7 +44,7 @@ dependencies {
     //for kotlin use navigation-fragment-ktx
     implementation 'androidx.navigation:navigation-ui-ktx:2.2.0-alpha01'
     //for kotlin use navigation-ui-ktx
-    
+
 
     //  viewModel & liveData
     implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
@@ -55,6 +55,9 @@ dependencies {
 
     //    Circle Imageview
     implementation 'de.hdodenhof:circleimageview:3.0.0'
+
+    //    preference
+    implementation "androidx.preference:preference-ktx:1.0.0"
 
     //glide
     implementation 'com.github.bumptech.glide:glide:4.9.0'

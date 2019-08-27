@@ -3,7 +3,6 @@ package io.github.manuelernesto.devfestapp.ui.agenda
 import android.os.Build
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -41,11 +40,11 @@ class AgendaFragment : Fragment() {
 
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 mTabLayout.getTabAt(0)?.icon =
-                    resources.getDrawable(R.drawable.ic_cloud_black, null)
+                    resources.getDrawable(R.drawable.ic_cloud, null)
                 mTabLayout.getTabAt(1)?.icon =
-                    resources.getDrawable(R.drawable.ic_phone_black, null)
+                    resources.getDrawable(R.drawable.ic_phone, null)
                 mTabLayout.getTabAt(2)?.icon =
-                    resources.getDrawable(R.drawable.ic_web_black, null)
+                    resources.getDrawable(R.drawable.ic_web, null)
             }
         }
     }

@@ -5,14 +5,14 @@
 
     <item
         android:id="@+id/menu_darkOn"
-        android:icon="@drawable/ic_lightbulb_outline_black_24dp"
+        android:icon="@drawable/ic_lightbulb"
         android:orderInCategory="1"
         android:title="Enable DarkMode"
         app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/menu_share"
-        android:icon="@drawable/ic_share_black_24dp"
+        android:icon="@drawable/ic_share"
         android:orderInCategory="1"
         android:title="Share App"
         app:showAsAction="ifRoom" />

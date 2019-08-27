@@ -9,17 +9,18 @@ import android.view.MenuInflater
 import android.view.MenuItem
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.content.FileProvider
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
 import io.github.manuelernesto.devfestapp.R
+import io.github.manuelernesto.devfestapp.util.DevfesPreferences
 import kotlinx.android.synthetic.main.activity_main.*
 import java.io.File
 import java.io.FileOutputStream
 
 class MainActivity : AppCompatActivity() {
-
 
     private lateinit var mNavController: NavController
 
@@ -47,6 +48,9 @@ class MainActivity : AppCompatActivity() {
             R.id.menu_share -> {
                 share()
             }
+            R.id.menu_darkOn -> {
+                darkMode()
+            }
         }
         return super.onOptionsItemSelected(item)
     }
@@ -63,6 +67,22 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent.createChooser(intent, "Share"))
         } catch (e: Exception) {
             e.printStackTrace()
+        }
+
+    }
+
+    private fun darkMode() {
+        when (DevfesPreferences(this).darkMode) {
+            1 -> {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+                delegate.applyDayNight()
+                DevfesPreferences(this).darkMode = 2
+            }
+            2 -> {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+                delegate.applyDayNight()
+                DevfesPreferences(this).darkMode = 1
+            }
         }
 
     }

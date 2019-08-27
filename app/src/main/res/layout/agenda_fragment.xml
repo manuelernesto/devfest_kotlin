@@ -21,19 +21,19 @@
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/ic_cloud_black"
+            android:icon="@drawable/ic_cloud"
             android:text="Cloud" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/ic_phone_black"
+            android:icon="@drawable/ic_phone"
             android:text="Mobile" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/ic_web_black"
+            android:icon="@drawable/ic_web"
             android:text="web &amp; more" />
 
     </com.google.android.material.tabs.TabLayout>
