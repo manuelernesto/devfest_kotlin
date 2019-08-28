@@ -15,8 +15,8 @@
 ## 📸 DarkSide
 |                                      |                                      | 
 | :----------------------------------: | :----------------------------------: |
-| <img width="250px"  src="https://i.imgur.com/cgvi7ph.png"> | <img width="250px"  src="https://i.imgur.com/1BtUGC6.png"> |
-| <img width="250px"  src="https://i.imgur.com/lbPV3lP.png"> | <img width="250px"  src="https://i.imgur.com/3LLoXUZ.png"> |
+| <img width="250px"  src="https://i.imgur.com/cgvi7ph.png"> | <img width="250px"  src="https://i.imgur.com/flnT9hK.png"> |
+| <img width="250px"  src="https://i.imgur.com/0jDiXyn.png"> | <img width="250px"  src="https://i.imgur.com/SBjGWVD.png"> |
 
 
 ### Show some :heart: and star the repo to support the project
