@@ -6,11 +6,18 @@
 
 <p align="center"><a href="#getting-started">:rocket: Get Started</a></p>
 
-## 📸 ScreenShots
+## 📸 LightSide
 |                                      |                                      | 
 | :----------------------------------: | :----------------------------------: |
 | <img width="250px"  src="https://i.imgur.com/doMUSM1.png"> | <img width="250px"  src="https://i.imgur.com/1BtUGC6.png"> |
 | <img width="250px"  src="https://i.imgur.com/lbPV3lP.png"> | <img width="250px"  src="https://i.imgur.com/3LLoXUZ.png"> |
+
+## 📸 DarkSide
+|                                      |                                      | 
+| :----------------------------------: | :----------------------------------: |
+| <img width="250px"  src="https://imgur.com/cgvi7ph"> | <img width="250px"  src="https://i.imgur.com/1BtUGC6.png"> |
+| <img width="250px"  src="https://i.imgur.com/lbPV3lP.png"> | <img width="250px"  src="https://i.imgur.com/3LLoXUZ.png"> |
+
 
 ### Show some :heart: and star the repo to support the project
 
@@ -41,7 +48,7 @@ DevFest Mobile application is for all the GDG Devfests around the world. You can
 - Sponsors (Upcoming)
 - FAQ (Upcoming)
 - Locate Us (Upcoming)
-- Darkmode (Upcoming)
+- DarkMode
 
 ## Getting Started
 

@@ -52,11 +52,10 @@ dependencies {
     //new material design
     implementation 'com.google.android.material:material:1.1.0-alpha09'
 
-
-    //    Circle Imageview
+    //Circle Imageview
     implementation 'de.hdodenhof:circleimageview:3.0.0'
 
-    //    preference
+    //Preference
     implementation "androidx.preference:preference-ktx:1.0.0"
 
     //glide
