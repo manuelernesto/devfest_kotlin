@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
                 share()
             }
             R.id.menu_darkOn -> {
-                darkMode()
+                chooseThemeDialog()
             }
         }
         return super.onOptionsItemSelected(item)
@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun darkMode() {
+    private fun chooseThemeDialog() {
 
         val builder = AlertDialog.Builder(this)
         builder.setTitle(getString(R.string.choose_theme_text))
