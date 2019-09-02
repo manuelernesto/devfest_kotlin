@@ -16,5 +16,9 @@
     <string name="txt_subject">Need an App?</string>
     <string name="txt_body">Just reply this email</string>
     <string name="txt_github">https://github.com/manuelernesto/devfest_kotlin</string>
+    <string name="choose_theme_text">Choose theme</string>
+    <string name="light_txt">Light</string>
+    <string name="dark">Dark</string>
+    <string name="system_default">System default</string>
 
 </resources>

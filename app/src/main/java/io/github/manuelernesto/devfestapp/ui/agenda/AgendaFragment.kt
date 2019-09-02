@@ -44,7 +44,7 @@ class AgendaFragment : Fragment() {
                 mTabLayout.getTabAt(1)?.icon =
                     resources.getDrawable(R.drawable.ic_phone, null)
                 mTabLayout.getTabAt(2)?.icon =
-                    resources.getDrawable(R.drawable.ic_web, null)
+                    resources.getDrawable(R.drawable.ic_chrome, null)
             }
         }
     }

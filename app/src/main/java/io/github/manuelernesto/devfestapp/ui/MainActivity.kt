@@ -1,24 +1,21 @@
 package io.github.manuelernesto.devfestapp.ui
 
+import android.content.DialogInterface
 import android.content.Intent
-import android.graphics.Bitmap
-import android.os.Build
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
-import android.view.WindowManager
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
-import androidx.core.content.FileProvider
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
 import io.github.manuelernesto.devfestapp.R
 import io.github.manuelernesto.devfestapp.util.DevfesPreferences
 import kotlinx.android.synthetic.main.activity_main.*
-import java.io.File
-import java.io.FileOutputStream
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -34,6 +31,8 @@ class MainActivity : AppCompatActivity() {
 
         NavigationUI.setupWithNavController(toolbar, mNavController)
         NavigationUI.setupActionBarWithNavController(this, mNavController)
+
+        checkDarMode()
 
     }
 
@@ -72,18 +71,66 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun darkMode() {
+
+        val builder = AlertDialog.Builder(this)
+        builder.setTitle(getString(R.string.choose_theme_text))
+        val animals = arrayOf(
+            getString(R.string.light_txt),
+            getString(R.string.dark),
+            getString(R.string.system_default)
+        )
+
+        val checkedItem = DevfesPreferences(this).darkMode
+        builder.setSingleChoiceItems(animals, checkedItem) { dialog, which ->
+
+            when (which) {
+                0 -> {
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+                    DevfesPreferences(this).darkMode = 0
+                    delegate.applyDayNight()
+                    dialog.dismiss()
+                }
+                1 -> {
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+                    DevfesPreferences(this).darkMode = 1
+                    delegate.applyDayNight()
+                    dialog.dismiss()
+                }
+                2 -> {
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
+                    DevfesPreferences(this).darkMode = 2
+                    delegate.applyDayNight()
+                    dialog.dismiss()
+                }
+
+            }
+        }
+
+        val dialog = builder.create()
+        dialog.show()
+
+
+    }
+
+    private fun checkDarMode() {
         when (DevfesPreferences(this).darkMode) {
-            1 -> {
+            0 -> {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
                 delegate.applyDayNight()
-                DevfesPreferences(this).darkMode = 2
+                DevfesPreferences(this).darkMode = 0
             }
-            2 -> {
+            1 -> {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
                 delegate.applyDayNight()
                 DevfesPreferences(this).darkMode = 1
             }
-        }
 
+            2 -> {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
+                delegate.applyDayNight()
+                DevfesPreferences(this).darkMode = 2
+            }
+
+        }
     }
 }

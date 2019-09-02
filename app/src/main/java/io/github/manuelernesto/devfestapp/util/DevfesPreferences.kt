@@ -10,7 +10,7 @@ class DevfesPreferences(context: Context?) {
 
     private val preferences = PreferenceManager.getDefaultSharedPreferences(context)
 
-    var darkMode = preferences.getInt(DARK_STATUS, 1)
+    var darkMode = preferences.getInt(DARK_STATUS, 0)
         set(value) = preferences.edit().putInt(DARK_STATUS, value).apply()
 
 }
