@@ -1,6 +1,5 @@
 package io.github.manuelernesto.devfestapp.ui
 
-import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
@@ -74,14 +73,14 @@ class MainActivity : AppCompatActivity() {
 
         val builder = AlertDialog.Builder(this)
         builder.setTitle(getString(R.string.choose_theme_text))
-        val animals = arrayOf(
+        val styles = arrayOf(
             getString(R.string.light_txt),
             getString(R.string.dark),
             getString(R.string.system_default)
         )
 
         val checkedItem = DevfesPreferences(this).darkMode
-        builder.setSingleChoiceItems(animals, checkedItem) { dialog, which ->
+        builder.setSingleChoiceItems(styles, checkedItem) { dialog, which ->
 
             when (which) {
                 0 -> {
