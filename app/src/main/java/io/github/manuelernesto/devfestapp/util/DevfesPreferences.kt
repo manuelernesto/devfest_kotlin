@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.preference.PreferenceManager
 
 class DevfesPreferences(context: Context?) {
+
     companion object {
         private const val DARK_STATUS = "io.github.manuelernesto.devfestapp.DARK_STATUS"
     }
