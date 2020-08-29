@@ -7,8 +7,8 @@
         <item name="colorAccent">@color/colorAccent</item>
 
 
-        <item name="android:fontFamily">@font/google_sans_regular</item>
-        <item name="fontFamily">@font/google_sans_regular</item>
+        <item name="android:fontFamily">@font/dev_dayz_mono_regular</item>
+        <item name="fontFamily">@font/dev_dayz_mono_regular</item>
 
 <!--        <item name="android:windowTranslucentStatus">true</item>-->
 <!--        <item name="android:windowTranslucentNavigation">false</item>-->
